@@ -1,0 +1,2 @@
+include ':app', ':loginmvptest', ':butterknifedemo', ':butterknifedemo', ':retrofitdemo', ':app1', ':rxjavademo', ':customview', ':okhttpdemo', ':dagger2demo', ':duanxintiqu', ':dongtaitu', ':app5', ':sdk', ':ui', ':presentation', ':apptx', ':tlslibrary', ':navidemo', ':waterdemo', ':waterdemo', ':app22', ':waveprogress', ':wavedemo', ':wavedemo', ':hotfixdemo', ':viewflipperdemo'
+include ':waterWaveProgress'

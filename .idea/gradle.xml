@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app1" />
+            <option value="$PROJECT_DIR$/app22" />
+            <option value="$PROJECT_DIR$/app5" />
+            <option value="$PROJECT_DIR$/apptx" />
+            <option value="$PROJECT_DIR$/butterknifedemo" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/dagger2demo" />
+            <option value="$PROJECT_DIR$/dongtaitu" />
+            <option value="$PROJECT_DIR$/duanxintiqu" />
+            <option value="$PROJECT_DIR$/hotfixdemo" />
+            <option value="$PROJECT_DIR$/loginmvptest" />
+            <option value="$PROJECT_DIR$/navidemo" />
+            <option value="$PROJECT_DIR$/okhttpdemo" />
+            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/retrofitdemo" />
+            <option value="$PROJECT_DIR$/rxjavademo" />
+            <option value="$PROJECT_DIR$/sdk" />
+            <option value="$PROJECT_DIR$/tlslibrary" />
+            <option value="$PROJECT_DIR$/ui" />
+            <option value="$PROJECT_DIR$/viewflipperdemo" />
+            <option value="$PROJECT_DIR$/waterWaveProgress" />
+            <option value="$PROJECT_DIR$/waterdemo" />
+            <option value="$PROJECT_DIR$/wavedemo" />
+            <option value="$PROJECT_DIR$/waveprogress" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

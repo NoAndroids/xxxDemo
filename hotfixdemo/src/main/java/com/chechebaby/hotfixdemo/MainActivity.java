@@ -1,0 +1,15 @@
+package com.chechebaby.hotfixdemo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.alipay.euler.andfix.patch.PatchManager;
+
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+    }
+}

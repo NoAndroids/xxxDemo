@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MVPDemo.iml" filepath="$PROJECT_DIR$/MVPDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app22/app22.iml" filepath="$PROJECT_DIR$/app22/app22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app5/app5.iml" filepath="$PROJECT_DIR$/app5/app5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apptx/apptx.iml" filepath="$PROJECT_DIR$/apptx/apptx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknifedemo/butterknifedemo.iml" filepath="$PROJECT_DIR$/butterknifedemo/butterknifedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dagger2demo/dagger2demo.iml" filepath="$PROJECT_DIR$/dagger2demo/dagger2demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dongtaitu/dongtaitu.iml" filepath="$PROJECT_DIR$/dongtaitu/dongtaitu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/duanxintiqu/duanxintiqu.iml" filepath="$PROJECT_DIR$/duanxintiqu/duanxintiqu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" filepath="$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginmvptest/loginmvptest.iml" filepath="$PROJECT_DIR$/loginmvptest/loginmvptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navidemo/navidemo.iml" filepath="$PROJECT_DIR$/navidemo/navidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presentation/presentation.iml" filepath="$PROJECT_DIR$/presentation/presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitdemo/retrofitdemo.iml" filepath="$PROJECT_DIR$/retrofitdemo/retrofitdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjavademo/rxjavademo.iml" filepath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlslibrary/tlslibrary.iml" filepath="$PROJECT_DIR$/tlslibrary/tlslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewflipperdemo/viewflipperdemo.iml" filepath="$PROJECT_DIR$/viewflipperdemo/viewflipperdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waterWaveProgress/waterWaveProgress.iml" filepath="$PROJECT_DIR$/waterWaveProgress/waterWaveProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waterdemo/waterdemo.iml" filepath="$PROJECT_DIR$/waterdemo/waterdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wavedemo/wavedemo.iml" filepath="$PROJECT_DIR$/wavedemo/wavedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waveprogress/waveprogress.iml" filepath="$PROJECT_DIR$/waveprogress/waveprogress.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,88 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\WaterWaveProgress.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* WaterWaveProgress.iml
+* import-summary.txt
+* proguard-project.txt
+* settings.gradle
+* waterWaveProgressDemo\
+* waterWaveProgressDemo\build.gradle
+* waterWaveProgressDemo\src\
+* waterWaveProgressDemo\src\main\
+* waterWaveProgressDemo\src\main\AndroidManifest.xml
+* waterWaveProgressDemo\src\main\java\
+* waterWaveProgressDemo\src\main\java\cn\
+* waterWaveProgressDemo\src\main\java\cn\modificator\
+* waterWaveProgressDemo\src\main\java\cn\modificator\waterwaveprogressdemo\
+* waterWaveProgressDemo\src\main\java\cn\modificator\waterwaveprogressdemo\MainActivity.java
+* waterWaveProgressDemo\src\main\res\
+* waterWaveProgressDemo\src\main\res\drawable-hdpi\
+* waterWaveProgressDemo\src\main\res\drawable-hdpi\ic_launcher.png
+* waterWaveProgressDemo\src\main\res\drawable-ldpi\
+* waterWaveProgressDemo\src\main\res\drawable-ldpi\bg.jpg
+* waterWaveProgressDemo\src\main\res\drawable-mdpi\
+* waterWaveProgressDemo\src\main\res\drawable-mdpi\ic_launcher.png
+* waterWaveProgressDemo\src\main\res\drawable-xhdpi\
+* waterWaveProgressDemo\src\main\res\drawable-xhdpi\ic_launcher.png
+* waterWaveProgressDemo\src\main\res\drawable-xxhdpi\
+* waterWaveProgressDemo\src\main\res\drawable-xxhdpi\ic_launcher.png
+* waterWaveProgressDemo\src\main\res\layout\
+* waterWaveProgressDemo\src\main\res\layout\activity_main.xml
+* waterWaveProgressDemo\src\main\res\values\
+* waterWaveProgressDemo\src\main\res\values\strings.xml
+* waterWaveProgressDemo\src\main\res\values\styles.xml
+* waterWaveProgress\
+* waterWaveProgress\build.gradle
+* waterWaveProgress\src\
+* waterWaveProgress\src\main\
+* waterWaveProgress\src\main\AndroidManifest.xml
+* waterWaveProgress\src\main\java\
+* waterWaveProgress\src\main\java\cn\
+* waterWaveProgress\src\main\java\cn\modificator\
+* waterWaveProgress\src\main\java\cn\modificator\waterwave_progress\
+* waterWaveProgress\src\main\java\cn\modificator\waterwave_progress\WaterWaveAttrInit.java
+* waterWaveProgress\src\main\java\cn\modificator\waterwave_progress\WaterWaveProgress.java
+* waterWaveProgress\src\main\java\cn\modificator\waterwave_progress\WidgetUtil.java
+* waterWaveProgress\src\main\res\
+* waterWaveProgress\src\main\res\values\
+* waterWaveProgress\src\main\res\values\attrs.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => waterWaveProgress\src\main\AndroidManifest.xml
+* res\ => waterWaveProgress\src\main\res\
+* src\ => waterWaveProgress\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
