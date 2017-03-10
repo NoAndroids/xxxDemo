@@ -24,14 +24,21 @@ public class LoginModelImple implements LoginModel{
     //修改需求  登录成功后获取 地区
     @Override
     public void login(String username, String password, final OnLoginListener onLoginListener) {
-        HttpUtls.Login login = HttpUtls.getRetrofit().create(HttpUtls.Login.class);
+        final HttpUtls.Login login = HttpUtls.getRetrofit().create(HttpUtls.Login.class);
+        final HttpUtls.Load load = HttpUtls.getRetrofit().create(HttpUtls.Load.class);
                 login.rxLogin(username,password)
                       .flatMap(new Func1<Bean, Observable<LoadBean>>() {
                           @Override
                           public Observable<LoadBean> call(Bean bean) {
-                              return null;
+                              return load.rxLoad();
                           }
                       })
+                        .doOnNext(new Action1<LoadBean>() {
+                            @Override
+                            public void call(LoadBean loadBean) {
+
+                            }
+                        })
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(new Subscriber<LoadBean>() {
@@ -47,7 +54,7 @@ public class LoginModelImple implements LoginModel{
 
                             @Override
                             public void onNext(LoadBean loadBean) {
-
+                                onLoginListener.onFail();
                             }
                         });
 //                        .subscribe(new Subscriber<Bean>() {

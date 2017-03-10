@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnItemClick;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity<BaseView> {
     @BindView(R.id.tv1)
     TextView tv1;
     @BindView(R.id.btn1)

@@ -34,6 +34,7 @@ public class HttpUtls {
     }
 
     public static  Retrofit getRetrofit() {
+
         //拦截  用于输出LOG
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
             @Override
@@ -50,7 +51,10 @@ public class HttpUtls {
 //                .addConverterFactory(GsonConverterFactory.create())
 //                .client(okHttpClient)
 //                .build();
-        Retrofit retrofit=new Retrofit.Builder()
+
+        Retrofit retrofit;
+
+        retrofit=new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
@@ -60,4 +64,5 @@ public class HttpUtls {
 
         return  retrofit;
     }
+
 }

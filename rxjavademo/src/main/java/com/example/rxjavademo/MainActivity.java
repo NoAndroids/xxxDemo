@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(TAG, "onNext:observer " + s);
             }
         };
+
         //Subscriber 是Observer的抽象类   对observer进行了扩容 但基本使用方法一样
         Subscriber<String> subscriber = new Subscriber<String>() {
 
@@ -273,6 +274,11 @@ public class MainActivity extends AppCompatActivity {
                 }).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<String>() {
+                    @Override
+                    public void onStart() {
+                        super.onStart();
+                    }
+
                     @Override
                     public void onCompleted() {
                         Log.i(TAG, "onCompleted: 完成了");
