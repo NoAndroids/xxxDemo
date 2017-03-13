@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MVPDemo.iml" filepath="$PROJECT_DIR$/MVPDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app22/app22.iml" filepath="$PROJECT_DIR$/app22/app22.iml" />
@@ -12,7 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/dongtaitu/dongtaitu.iml" filepath="$PROJECT_DIR$/dongtaitu/dongtaitu.iml" />
       <module fileurl="file://$PROJECT_DIR$/duanxintiqu/duanxintiqu.iml" filepath="$PROJECT_DIR$/duanxintiqu/duanxintiqu.iml" />
       <module fileurl="file://$PROJECT_DIR$/four/four.iml" filepath="$PROJECT_DIR$/four/four.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fouraidlservice/fouraidlservice.iml" filepath="$PROJECT_DIR$/fouraidlservice/fouraidlservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fourserverservice/fourserverservice.iml" filepath="$PROJECT_DIR$/fourserverservice/fourserverservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" filepath="$PROJECT_DIR$/hotfixdemo/hotfixdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/navidemo/navidemo.iml" filepath="$PROJECT_DIR$/navidemo/navidemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
@@ -23,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/waterdemo/waterdemo.iml" filepath="$PROJECT_DIR$/waterdemo/waterdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wavedemo/wavedemo.iml" filepath="$PROJECT_DIR$/wavedemo/wavedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/waveprogress/waveprogress.iml" filepath="$PROJECT_DIR$/waveprogress/waveprogress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxxDemo.iml" filepath="$PROJECT_DIR$/xxxDemo.iml" />
     </modules>
   </component>
 </project>

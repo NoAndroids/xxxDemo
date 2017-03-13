@@ -1,2 +1,2 @@
-include ':app', ':butterknifedemo', ':butterknifedemo', ':retrofitdemo', ':app1', ':rxjavademo', ':okhttpdemo', ':dagger2demo', ':duanxintiqu', ':dongtaitu', ':app5', ':navidemo', ':waterdemo', ':waterdemo', ':app22', ':waveprogress', ':wavedemo', ':wavedemo', ':hotfixdemo', ':viewflipperdemo', ':four', ':fouraidlservice'
+include ':app', ':butterknifedemo', ':butterknifedemo', ':retrofitdemo', ':app1', ':rxjavademo', ':okhttpdemo', ':dagger2demo', ':duanxintiqu', ':dongtaitu', ':app5', ':navidemo', ':waterdemo', ':waterdemo', ':app22', ':waveprogress', ':wavedemo', ':wavedemo', ':hotfixdemo', ':viewflipperdemo', ':four', ':fourserverservice'
 include ':waterWaveProgress'

@@ -10,25 +10,40 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.shy.fourserverservice.MAIDLServerService;
+
 public class MainActivity extends AppCompatActivity {
     Button btn1,btn2;
     Button btn3,btn4;
     Button btn5;
     Button btn6;
-    private Service1.Mybinder mybinder;
-    private ServiceConnection connection=new ServiceConnection() {
-        @Override
-        public void onServiceConnected(ComponentName name, IBinder service) {
-            Log.e("tag", "onServiceConnected: "+"name"+name+"service"+service);
-            mybinder= (Service1.Mybinder) service;
-            mybinder.onDownLoad();
-        }
+//    private Service1.Mybinder mybinder;
+//    private ServiceConnection connection=new ServiceConnection() {
+//        @Override
+//        public void onServiceConnected(ComponentName name, IBinder service) {
+//            Log.e("tag", "onServiceConnected: "+"name"+name+"service"+service);
+//            mybinder= (Service1.Mybinder) service;
+//            mybinder.onDownLoad();
+//        }
+//
+//        @Override
+//        public void onServiceDisconnected(ComponentName name) {
+//            Log.e("tag", "onServiceDisconnected: "+name.toString() );
+//        }
+//    };
+    private MAIDLServerService maidlServerService;
+    private ServiceConnection serviceConnection=new ServiceConnection() {
+    @Override
+    public void onServiceConnected(ComponentName name, IBinder service) {
+        maidlServerService=MAIDLServerService.Stub.asInterface(service);
+      
+    }
 
-        @Override
-        public void onServiceDisconnected(ComponentName name) {
-            Log.e("tag", "onServiceDisconnected: "+name.toString() );
-        }
-    };
+    @Override
+    public void onServiceDisconnected(ComponentName name) {
+
+    }
+};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,20 +65,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         btn3= (Button) findViewById(R.id.btn3);
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,Service1.class);
-                bindService(intent,connection,BIND_AUTO_CREATE);
-            }
-        });
-        btn4= (Button) findViewById(R.id.btn4);
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                unbindService(connection);
-            }
-        });
+//        btn3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(MainActivity.this,Service1.class);
+//                bindService(intent,connection,BIND_AUTO_CREATE);
+//            }
+//        });
+//        btn4= (Button) findViewById(R.id.btn4);
+//        btn4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                unbindService(connection);
+//            }
+//        });
         btn5= (Button) findViewById(R.id.btn5);
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
